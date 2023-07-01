@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d8d0f78-6f12-49d8-877c-296c992f5f70" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/chain_of_responsibility/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/chain_of_responsibility/LeaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/chain_of_responsibility/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/command/Invoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/command/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/command/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/iterator/ConcreteMyAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/iterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/iterator/MyIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/mediator/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/mediator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/memento/CareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/memento/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/memento/EmployeeMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/memento/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/observer/ConcreteSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/observer/ObserverA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/state/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/state/RoomContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/template_method/BankTemplateMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/behavioral_patterns/template_method/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/abstract_factory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/abstract_factory/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/abstract_factory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/abstract_factory/Seat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/abstract_factory/Tire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/builder/AirShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/builder/AirShipBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/builder/AirShipDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/factory_method/factory_method/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/factory_method/factory_method/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/factory_method/factory_method/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/factory_method/simple_factory/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/factory_method/simple_factory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/factory_method/simple_factory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/prototype/deep_copy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/prototype/deep_copy/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/prototype/shallow_copy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/prototype/shallow_copy/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/singleton/hungry_singleton/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/singleton/hungry_singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/singleton/lazy_singleton/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/creational_patterns/singleton/lazy_singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/adapter/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/adapter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/adapter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/bridge/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/bridge/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/bridge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/composite/AbstractFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/composite/Folder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/composite/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/decorator/ICar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/decorator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/decorator/SuperCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/facade/AdminOfIndustry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/facade/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/facade/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/facade/RegisterFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/facade/Taxation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/flyweight/ChessFlyWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/flyweight/ChessFlyWeightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/flyweight/Coordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/flyweight/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/proxy/dynamic_proxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/proxy/dynamic_proxy/RealStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/proxy/dynamic_proxy/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/proxy/dynamic_proxy/StarHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/proxy/static_proxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/proxy/static_proxy/ProxyStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/proxy/static_proxy/RealStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pattern/structural_patterns/proxy/static_proxy/Star.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ruw2HIl6DWypcSH8oslBNRinTt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Projects/#Project_Java/design-pattern/design-pattern/src/main/java/com/pattern/creational_patterns/factory_method/factory_method&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\#Project_Java\design-pattern\design-pattern\src\main\java\com\pattern\creational_patterns\factory_method\factory_method" />
+      <recent name="E:\Projects\#Project_Java\design-pattern\design-pattern\src\main\java\com\pattern\creational_patterns\prototype\shallow_copy" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pattern.creational_patterns.prototype.shallow_copy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.com.pattern.creational_patterns.abstract_factory.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.behavioral_patterns.state.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pattern.behavioral_patterns.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.pattern.behavioral_patterns.memento.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.behavioral_patterns.memento.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pattern.behavioral_patterns.memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.pattern.behavioral_patterns.observer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.behavioral_patterns.observer.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pattern.behavioral_patterns.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.pattern.behavioral_patterns.template_method.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.behavioral_patterns.template_method.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pattern.behavioral_patterns.template_method.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.pattern.creational_patterns.abstract_factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.creational_patterns.abstract_factory.Main" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pattern.creational_patterns.abstract_factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.com.pattern.creational_patterns.abstract_factory.Main" />
+        <item itemvalue="应用程序.com.pattern.behavioral_patterns.memento.Main" />
+        <item itemvalue="应用程序.com.pattern.behavioral_patterns.observer.Main" />
+        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.com.pattern.behavioral_patterns.template_method.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6d8d0f78-6f12-49d8-877c-296c992f5f70" name="变更" comment="" />
+      <created>1688113065128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688113065128</updated>
+      <workItem from="1688113066498" duration="493000" />
+      <workItem from="1688113611142" duration="4411000" />
+      <workItem from="1688132923254" duration="4324000" />
+      <workItem from="1688205062116" duration="9253000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+package com.pattern.structural_patterns.proxy.static_proxy;
+
+/**
+ * 测试类
+ *
+ * @author: Chestnut
+ * @since: 2023-06-30
+ **/
+public class Main {
+    public static void main(String[] args) {
+        Star real = new RealStar();
+        Star proxy = new ProxyStar(real);
+
+        // ProxyStar.confer...
+        proxy.confer();
+        // ProxyStar.signContract...
+        proxy.signContract();
+        // ProxyStar.bookTicket...
+        proxy.bookTicket();
+        // RealStar.sing...
+        proxy.sing();
+        // ProxyStar.collectMoney...
+        proxy.collectMoney();
+    }
+}
+
+/*
+ProxyStar.confer...
+ProxyStar.signContract...
+ProxyStar.bookTicket...
+RealStar.sing...
+ProxyStar.collectMoney...
+ */
