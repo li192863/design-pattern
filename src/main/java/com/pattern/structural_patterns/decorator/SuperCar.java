@@ -40,7 +40,9 @@ class FlyCar extends SuperCar {
 
     @Override
     public void move() {
+        // 被装饰角色方法
         super.move();
+        // 装饰方法
         fly();
     }
 }
@@ -59,7 +61,9 @@ class WaterCar extends SuperCar {
 
     @Override
     public void move() {
+        // 被装饰角色方法
         super.move();
+        // 装饰方法
         swim();
     }
 }
@@ -78,7 +82,9 @@ class AICar extends SuperCar {
 
     @Override
     public void move() {
+        // 被装饰角色方法
         super.move();
+        // 装饰方法
         AutoMove();
     }
 }
