@@ -13,7 +13,7 @@ import java.util.Observer;
  **/
 
 /**
- * 观察者类（实现`java.util.Observable`接口）
+ * 观察者类（实现`java.util.Observer`接口）
  */
 public class ObserverA implements Observer {
     /**
