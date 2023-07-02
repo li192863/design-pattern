@@ -30,7 +30,7 @@ public class ObserverA implements Observer {
     }
 
     /**
-     * 观察者如何更新
+     * 观察者如何更新(钩子函数hook)
      * @param o     the observable object.
      * @param arg   an argument passed to the <code>notifyObservers</code>
      *                 method.
