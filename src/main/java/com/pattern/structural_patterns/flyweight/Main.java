@@ -11,8 +11,12 @@ public class Main {
         ChessFlyWeight chess1 = ChessFlyWeightFactory.getChess("黑");
         ChessFlyWeight chess2 = ChessFlyWeightFactory.getChess("白");
         ChessFlyWeight chess3 = ChessFlyWeightFactory.getChess("黑");
-//        System.out.println(chess1); // com.lee.pattern.flyweight.ConcreteChess@677327b6
-//        System.out.println(chess3); // com.lee.pattern.flyweight.ConcreteChess@677327b6
+        // com.pattern.structural_patterns.flyweight.ConcreteChess@1b6d3586
+        System.out.println(chess1);
+        // com.pattern.structural_patterns.flyweight.ConcreteChess@4554617c
+        System.out.println(chess2);
+        // com.pattern.structural_patterns.flyweight.ConcreteChess@1b6d3586
+        System.out.println(chess3);
 
         System.out.println("-----增加外部状态的处理-----");
         chess1.display(new Coordinate(10, 10));
@@ -22,6 +26,9 @@ public class Main {
 }
 
 /*
+com.pattern.structural_patterns.flyweight.ConcreteChess@1b6d3586
+com.pattern.structural_patterns.flyweight.ConcreteChess@4554617c
+com.pattern.structural_patterns.flyweight.ConcreteChess@1b6d3586
 -----增加外部状态的处理-----
 黑棋落于点(10, 10)
 白棋落于点(10, 11)
