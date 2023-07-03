@@ -14,7 +14,7 @@ package com.pattern.behavioral_patterns.strategy;
  * 接口-策略
  */
 public interface Strategy {
-    public double getPrice(double standardPrice);
+    double getPrice(double standardPrice);
 }
 
 /**
