@@ -11,7 +11,7 @@ package com.pattern.creational_patterns.builder;
  **/
 
 /**
- * 宇宙飞船
+ * 复杂对象-宇宙飞船
  */
 public class AirShip {
     /**

@@ -22,12 +22,23 @@ public class Main {
         subject.addObserver(obs2);
         subject.addObserver(obs3);
 
+        System.out.println("-----初始状态-----");
+        System.out.println(obs1.getMyState());
+        System.out.println(obs2.getMyState());
+        System.out.println(obs3.getMyState());
         // 改变目标对象状态
+        System.out.println("-----更改状态-----");
+        subject.setState(300);
         System.out.println(obs1.getMyState());
         System.out.println(obs2.getMyState());
         System.out.println(obs3.getMyState());
 
-        subject.setState(300);
+        // 目标对象容器中删除观察对象
+        // 删除观察者(原理: 目标对象容器内删除观察者)
+        subject.deleteObserver(obs2);
+        // 改变目标对象状态
+        System.out.println("-----更改状态-----");
+        subject.setState(600);
         System.out.println(obs1.getMyState());
         System.out.println(obs2.getMyState());
         System.out.println(obs3.getMyState());
@@ -35,10 +46,16 @@ public class Main {
 }
 
 /*
+-----初始状态-----
 0
 0
 0
+-----更改状态-----
 300
 300
 300
+-----更改状态-----
+600
+300
+600
  */

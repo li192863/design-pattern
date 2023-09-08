@@ -25,10 +25,14 @@ public class LazySingleton {
     private LazySingleton() {
     }
 
-    public static synchronized LazySingleton getInstance() {
-        // getInstance 方法前加同步
+    public static LazySingleton getInstance() {
+        // 双重检验锁
         if (instance == null) {
-            instance = new LazySingleton();
+            synchronized (LazySingleton.class) {
+                if (instance == null) {
+                    instance = new LazySingleton();
+                }
+            }
         }
         return instance;
     }
