@@ -15,10 +15,10 @@ package com.pattern.structural_patterns.proxy.static_proxy;
  * 静态代理模式
  */
 public class ProxyStar implements Star {
-    private Star star;
+    private Star realStar;
 
-    public ProxyStar(Star star) {
-        this.star = star;
+    public ProxyStar(Star realStar) {
+        this.realStar = realStar;
     }
 
     @Override
@@ -38,7 +38,7 @@ public class ProxyStar implements Star {
 
     @Override
     public void sing() {
-        star.sing();
+        realStar.sing();
     }
 
     @Override
