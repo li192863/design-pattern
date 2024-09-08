@@ -43,7 +43,7 @@ public class Folder implements AbstractFile {
     public void killVirus() {
         System.out.println("文件夹文件" + name + "查杀！");
 
-        for (AbstractFile file: list) {
+        for (AbstractFile file : list) {
             file.killVirus();
         }
     }

@@ -14,7 +14,9 @@ package com.pattern.structural_patterns.flyweight;
  */
 public interface ChessFlyWeight {
     void setColor(String c);
+
     String getColor();
+
     void display(Coordinate c);
 }
 

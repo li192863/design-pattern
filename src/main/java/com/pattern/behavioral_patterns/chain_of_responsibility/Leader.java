@@ -27,6 +27,7 @@ public abstract class Leader {
 
     /**
      * 设定责任链下一对象
+     * 
      * @param nextLeader
      */
     public void setNextLeader(Leader nextLeader) {
@@ -35,6 +36,7 @@ public abstract class Leader {
 
     /**
      * 处理请求的模板方法
+     * 
      * @param request
      */
     public void handleRequest(LeaveRequest request) {
@@ -51,6 +53,7 @@ public abstract class Leader {
 
     /**
      * 处理请求的业务代码
+     * 
      * @param request
      * @return 是否继续执行
      */

@@ -21,6 +21,7 @@ public class Context {
 
     /**
      * 构造方法注入
+     * 
      * @param strategy
      */
     public Context(Strategy strategy) {
@@ -29,6 +30,7 @@ public class Context {
 
     /**
      * setter注入
+     * 
      * @param strategy
      */
     public void setStrategy(Strategy strategy) {

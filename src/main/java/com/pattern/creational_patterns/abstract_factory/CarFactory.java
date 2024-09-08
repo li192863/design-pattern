@@ -15,7 +15,9 @@ package com.pattern.creational_patterns.abstract_factory;
  */
 public interface CarFactory {
     Engine createEngine();
+
     Seat createSeat();
+
     Tire createTire();
 }
 

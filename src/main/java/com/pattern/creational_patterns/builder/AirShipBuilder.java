@@ -15,7 +15,9 @@ package com.pattern.creational_patterns.builder;
  */
 public interface AirShipBuilder {
     OrbitalModule buildOrbitalModule();
+
     Engine buildEngine();
+
     EscapeTower buildEscapeTower();
 }
 

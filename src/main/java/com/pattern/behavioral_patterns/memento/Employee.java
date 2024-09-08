@@ -25,6 +25,7 @@ public class Employee {
 
     /**
      * 备忘数据操作
+     * 
      * @return
      */
     public EmployeeMemento memento() {
@@ -33,6 +34,7 @@ public class Employee {
 
     /**
      * 恢复数据操作
+     * 
      * @param memento
      */
     public void recover(EmployeeMemento memento) {

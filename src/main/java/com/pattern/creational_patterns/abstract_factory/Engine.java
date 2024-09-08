@@ -15,6 +15,7 @@ package com.pattern.creational_patterns.abstract_factory;
  */
 public interface Engine {
     void run();
+
     void start();
 }
 

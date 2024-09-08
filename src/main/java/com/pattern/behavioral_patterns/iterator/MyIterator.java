@@ -25,24 +25,28 @@ public interface MyIterator {
 
     /**
      * 判断是否存在下一个元素
+     * 
      * @return
      */
     boolean hasNext();
 
     /**
      * 判断是否为第一个元素
+     * 
      * @return
      */
     boolean isFirst();
 
     /**
      * 判断是否为最后一个元素
+     * 
      * @return
      */
     boolean isLast();
 
     /**
      * 获得当前游标指向的元素
+     * 
      * @return
      */
     Object getCurrentObject();

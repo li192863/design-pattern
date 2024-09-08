@@ -36,11 +36,13 @@ public class ConcreteMyAggregate {
 
     /**
      * 获得迭代器
+     * 
      * @return
      */
     public MyIterator createIterator() {
         return new ConcreteIterator();
     }
+
     /**
      * 内部类定义迭代器(可直接使用外部类属性)
      */
