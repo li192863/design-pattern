@@ -27,13 +27,11 @@ public class StarHandler implements InvocationHandler {
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         Object object = null;
-        System.out.println("真正方法执行前...");
-        System.out.println("面谈, 签合同, 预付款, 顶机票...");
+        System.out.println("[真正方法执行前]面谈, 签合同, 预付款, 顶机票...");
         if ("sing".equals(method.getName())) {
             method.invoke(realStar, args);
         }
-        System.out.println("真正方法执行后...");
-        System.out.println("收尾款...");
+        System.out.println("[真正方法执行后]收尾款...");
 
         return object;
     }
