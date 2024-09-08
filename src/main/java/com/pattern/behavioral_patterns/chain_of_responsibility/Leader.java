@@ -34,10 +34,27 @@ public abstract class Leader {
     }
 
     /**
-     * 处理请求的业务代码
+     * 处理请求的模板方法
      * @param request
      */
-    public abstract void handleRequest(LeaveRequest request);
+    public void handleRequest(LeaveRequest request) {
+        // 当前对象处理
+        boolean proceed = doHandle(request);
+        if (!proceed) return;
+        // 下一对象处理
+        if (this.nextLeader != null) {
+            this.nextLeader.handleRequest(request);
+        } else {
+            System.out.println("莫非" + request.getEmpName() + "想辞职, 居然请假" + request.getLeaveDays() + "天? ");
+        }
+    }
+
+    /**
+     * 处理请求的业务代码
+     * @param request
+     * @return 是否继续执行
+     */
+    public abstract boolean doHandle(LeaveRequest request);
 }
 
 /**
@@ -49,15 +66,13 @@ class Director extends Leader {
     }
 
     @Override
-    public void handleRequest(LeaveRequest request) {
+    public boolean doHandle(LeaveRequest request) {
         if (request.getLeaveDays() < 3) {
             System.out.println("员工" + request.getEmpName() + "请假" + request.getLeaveDays() + "天, 理由是" + request.getReason());
             System.out.println(this.name + "主任审批通过...");
-        } else {
-            if (this.nextLeader != null) {
-                this.nextLeader.handleRequest(request);
-            }
+            return false;
         }
+        return true;
     }
 }
 
@@ -70,15 +85,13 @@ class Manager extends Leader {
     }
 
     @Override
-    public void handleRequest(LeaveRequest request) {
+    public boolean doHandle(LeaveRequest request) {
         if (request.getLeaveDays() < 10) {
             System.out.println("员工" + request.getEmpName() + "请假" + request.getLeaveDays() + "天, 理由是" + request.getReason());
             System.out.println(this.name + "经理审批通过...");
-        } else {
-            if (this.nextLeader != null) {
-                this.nextLeader.handleRequest(request);
-            }
+            return false;
         }
+        return true;
     }
 }
 
@@ -91,15 +104,13 @@ class ViceGeneralManager extends Leader {
     }
 
     @Override
-    public void handleRequest(LeaveRequest request) {
+    public boolean doHandle(LeaveRequest request) {
         if (request.getLeaveDays() < 20) {
             System.out.println("员工" + request.getEmpName() + "请假" + request.getLeaveDays() + "天, 理由是" + request.getReason());
             System.out.println(this.name + "副总经理审批通过...");
-        } else {
-            if (this.nextLeader != null) {
-                this.nextLeader.handleRequest(request);
-            }
+            return false;
         }
+        return true;
     }
 }
 
@@ -112,12 +123,12 @@ class GeneralManager extends Leader {
     }
 
     @Override
-    public void handleRequest(LeaveRequest request) {
+    public boolean doHandle(LeaveRequest request) {
         if (request.getLeaveDays() < 30) {
             System.out.println("员工" + request.getEmpName() + "请假" + request.getLeaveDays() + "天, 理由是" + request.getReason());
             System.out.println(this.name + "总经理审批通过...");
-        } else {
-            System.out.println("莫非" + request.getEmpName() + "想辞职, 居然请假" + request.getLeaveDays() + "天? ");
+            return false;
         }
+        return true;
     }
 }
