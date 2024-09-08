@@ -38,7 +38,9 @@ public class ProxyStar implements Star {
 
     @Override
     public void sing() {
+        System.out.println("[真正方法执行前]面谈, 签合同, 预付款, 顶机票...");
         realStar.sing();
+        System.out.println("[真正方法执行后]收尾款...");
     }
 
     @Override
