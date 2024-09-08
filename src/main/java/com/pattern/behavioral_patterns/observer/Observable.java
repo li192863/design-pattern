@@ -41,7 +41,7 @@ public class Observable {
 
     /**
      * 从此对象的观察者集合中删除一个观察者
-     * 将 <CODE>null</CODE> 传递给此方法将不产生任何效果
+     * 将 <code>null</code> 传递给此方法将不产生任何效果
      *
      * @param o 要删除的观察者
      */
