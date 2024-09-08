@@ -7,30 +7,55 @@ package com.pattern.structural_patterns.flyweight;
  * @since: 2023-06-30
  **/
 public class Main {
-    public static void main(String[] args) {
-        ChessFlyWeight chess1 = ChessFlyWeightFactory.getChess("黑");
-        ChessFlyWeight chess2 = ChessFlyWeightFactory.getChess("白");
-        ChessFlyWeight chess3 = ChessFlyWeightFactory.getChess("黑");
-        // com.pattern.structural_patterns.flyweight.ConcreteChess@1b6d3586
-        System.out.println(chess1);
-        // com.pattern.structural_patterns.flyweight.ConcreteChess@4554617c
-        System.out.println(chess2);
-        // com.pattern.structural_patterns.flyweight.ConcreteChess@1b6d3586
-        System.out.println(chess3);
+    /*
+     * 棋子可选的颜色
+     */
+    private static String[] colors = { "红", "绿", "蓝", "白", "黑" };
 
-        System.out.println("-----增加外部状态的处理-----");
-        chess1.display(new Coordinate(10, 10));
-        chess2.display(new Coordinate(10, 11));
-        chess3.display(new Coordinate(11, 10));
+    public static void main(String[] args) {
+        for (int i = 0; i < 20; i++) {
+            ChessFlyWeight chess1 = ChessFlyWeightFactory.getChess(getRandomColor());
+            // 增加外部状态的处理
+            chess1.display(new Coordinate(getRandomX(), getRandomY()));
+        }
+    }
+
+    private static String getRandomColor() {
+        return colors[(int) (Math.random() * colors.length)];
+    }
+
+    private static int getRandomX() {
+        return (int) (Math.random() * 100);
+    }
+
+    private static int getRandomY() {
+        return (int) (Math.random() * 100);
     }
 }
 
 /*
-com.pattern.structural_patterns.flyweight.ConcreteChess@1b6d3586
-com.pattern.structural_patterns.flyweight.ConcreteChess@4554617c
-com.pattern.structural_patterns.flyweight.ConcreteChess@1b6d3586
------增加外部状态的处理-----
-黑棋落于点(10, 10)
-白棋落于点(10, 11)
-黑棋落于点(11, 10)
+创建并缓存蓝棋(com.pattern.structural_patterns.flyweight.ConcreteChess@4d7e1886)
+蓝棋落于点(18, 62)
+创建并缓存黑棋(com.pattern.structural_patterns.flyweight.ConcreteChess@2f0e140b)
+黑棋落于点(0, 22)
+蓝棋落于点(38, 26)
+蓝棋落于点(0, 74)
+创建并缓存绿棋(com.pattern.structural_patterns.flyweight.ConcreteChess@7440e464)
+绿棋落于点(55, 80)
+蓝棋落于点(77, 1)
+创建并缓存红棋(com.pattern.structural_patterns.flyweight.ConcreteChess@49476842)
+红棋落于点(15, 95)
+黑棋落于点(58, 76)
+蓝棋落于点(8, 17)
+红棋落于点(64, 23)
+蓝棋落于点(72, 78)
+蓝棋落于点(44, 40)
+黑棋落于点(41, 44)
+绿棋落于点(13, 66)
+绿棋落于点(30, 50)
+绿棋落于点(41, 0)
+黑棋落于点(80, 10)
+红棋落于点(20, 37)
+黑棋落于点(33, 50)
+红棋落于点(84, 23)
  */

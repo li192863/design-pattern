@@ -22,12 +22,13 @@ public class ChessFlyWeightFactory {
     private static Map<String, ChessFlyWeight> map = new HashMap<>();
 
     public static ChessFlyWeight getChess(String color) {
-        if (map.get(color) != null) {
-            return map.get(color);
-        } else {
+        ChessFlyWeight chess = map.get(color);
+        if (chess == null) {
             ChessFlyWeight cfw = new ConcreteChess(color);
             map.put(color, cfw);
-            return cfw;
+            System.out.println("创建并缓存" + color + "棋(" + cfw + ")");
+            chess = cfw;
         }
+        return chess;
     }
 }
